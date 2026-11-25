@@ -1,0 +1,5 @@
+{
+  "name": "Calculator App",
+  "description": "A clean web calculator for basic arithmetic operations with keyboard support and calculation history.",
+  "requestFramePermissions": []
+}

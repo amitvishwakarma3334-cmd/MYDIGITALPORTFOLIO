@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amit | BCA Student &amp; Aspiring IT Professional</title>
+    <meta
+      name="description"
+      content="Official digital portfolio of Amit — BCA student at Swami Vivekanand University showcasing web development projects, technical skills, certificates, and resume."
+    />
+    <meta name="author" content="Amit" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Amit | BCA Student &amp; Aspiring IT Professional" />
+    <meta
+      property="og:description"
+      content="Explore Amit's portfolio featuring projects like Rush Aviator, NASSCOM, Reliance Foundation &amp; Kaggle certificates, technical skills, and downloadable Resume &amp; CV."
+    />
+    <meta property="og:site_name" content="Amit Portfolio" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Amit | BCA Student &amp; Aspiring IT Professional" />
+    <meta
+      name="twitter:description"
+      content="Digital portfolio of Amit — BCA student, aspiring IT professional, and front-end web developer."
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Amit",
+        "jobTitle": "BCA Student | Aspiring IT Professional",
+        "email": "mailto:amitvishwakarma3334@gmail.com",
+        "telephone": "9936802286",
+        "affiliation": {
+          "@type": "CollegeOrUniversity",
+          "name": "Swami Vivekanand University"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/amit-vishwakarma-887247365",
+          "https://github.com/amitvishwakarma3334-cmd"
+        ]
+      }
+    </script>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('av_theme');
+          if (stored === 'dark' || (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-[#060D1A] dark:text-slate-100 antialiased selection:bg-blue-600/20 selection:text-blue-900 dark:selection:bg-blue-500/30 dark:selection:text-blue-100 transition-colors duration-200">
+    <div id="root"></div>
+    <script>
+      if (window.location.protocol === 'file:') {
+        document.getElementById('root').innerHTML =
+          '<div style="min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;background:#060D1A;color:#F8FAFC;font-family:system-ui,sans-serif;">' +
+          '<div style="max-width:540px;background:#0B172A;border:1px solid #1E293B;border-radius:16px;padding:28px;line-height:1.6;">' +
+          '<h1 style="margin:0 0 8px;font-size:20px;font-weight:700;">Run via Local Server or Hosting</h1>' +
+          '<p style="margin:0 0 14px;font-size:14px;color:#CBD5E1;">Browsers block React/Vite modules when opening <code>index.html</code> directly as a <code>file://</code> path.</p>' +
+          '<p style="margin:0 0 8px;font-size:13px;font-weight:600;color:#93C5FD;">Run these commands inside this project folder:</p>' +
+          '<pre style="margin:0 0 14px;padding:12px;background:#060D1A;border:1px solid #1E293B;border-radius:10px;font-size:13px;overflow:auto;">npm install\nnpm run dev</pre>' +
+          '<p style="margin:0;font-size:13px;color:#94A3B8;">Then open <strong>http://localhost:3000</strong> in your browser, or deploy the repository to Vercel, Netlify, or GitHub Pages.</p>' +
+          '</div></div>';
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
